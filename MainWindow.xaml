@@ -26,7 +26,7 @@
                             <!-- Column 1: Remaining available space -->
                         </Grid.ColumnDefinitions>
 
-                        <Image Grid.Column="0" Source="path_to_your_image.jpg" Width="100" Height="30"/>
+                        <Image Grid.Column="0" Source="{Binding Icon}" Width="100" Height="30"/>
                         <TextBlock Grid.Column="1" Text="{Binding Text}" VerticalAlignment="Center"/>
                     </Grid>
                 </DataTemplate>
